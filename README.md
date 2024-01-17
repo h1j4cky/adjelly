@@ -15,7 +15,13 @@ cd adjelly
 There is pyproject.toml file located in it. Install ADJELLY with _flit_ package manager: 
 ```
 flit build
+flit install
 ```
+//If not done - add this directory to path to run it with name only
+//Successfully uninstalled adversary-1.0.0
+  WARNING: The script adversary is installed in '/home/hijacky/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
 Run _install.sh_ script as root to install necessary tools (nmap, crackmapexec, etc.)
 ```
 sudo ./install.sh
