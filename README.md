@@ -1,8 +1,10 @@
 # ADJelly
-Active Directory enumeration and exploitation tool.
+ADJelly is an Active Directory enumeration and exploitation tool.
 
 Choose module that suits you best.
+
 // here put chains with module names on it
+
 // in description of each module - try to explain WHAT EXACTLY IS GOING TO HAPPEN
 
 ## Installation
