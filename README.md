@@ -2,7 +2,8 @@
 Active Directory enumeration and exploitation tool.
 
 Choose module that suits you best.
-
+// here put chains with module names on it
+// in description of each module - try to explain WHAT EXACTLY IS GOING TO HAPPEN
 
 ## Installation
 Go to adjelly directory
