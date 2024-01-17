@@ -1,4 +1,4 @@
-# adJelly
+# ADJelly
 Active Directory enumeration and exploitation tool
 
 ## Installation
