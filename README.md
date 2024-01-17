@@ -45,7 +45,7 @@ Commands:
   synchronize  Synchronizes time with NTP server.
 ```
 ### Fullscan
-Fullscan command enumerates and exploits all attack paths that ADJELLY has to offer.
+Fullscan command enumerates and exploits all attack paths that ADJelly has to offer.
 ```
 Usage: adjelly fullscan [OPTIONS]
 
@@ -71,7 +71,7 @@ Options:
 ```
 ### SMB
 Performs SMB enumeration and exploitation.  
-If no creds provided, adjelly tries unauthenticated SMB session.  
+If no creds provided, ADJelly tries anonymous SMB session.  
 
 ```
 Usage: adjelly smb [OPTIONS]
@@ -90,7 +90,7 @@ Options:
 
 ### LDAP
 Performs LDAP enumeration.  
-If no creds provided, adjelly tries unauthenticated LDAP bind.
+If no creds provided, ADJelly tries unauthenticated LDAP bind.
 ```
 Usage: adjelly ldap [OPTIONS]
 
