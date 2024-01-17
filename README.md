@@ -17,6 +17,7 @@ There is pyproject.toml file located in it. Install ADJELLY with _flit_ package 
 flit build
 flit install
 ```
+// byc moze totalnie nie trzeba build
 //If not done - add this directory to path to run it with name only
 //Successfully uninstalled adversary-1.0.0
   WARNING: The script adversary is installed in '/home/hijacky/.local/bin' which is not on PATH.
