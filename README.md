@@ -70,8 +70,8 @@ Options:
   --help               Show this message and exit.
 ```
 ### SMB
-Performs SMB enumeration and exploitation. \\
-If no creds provided, adjelly tries unauthenticated SMB session.
+Performs SMB enumeration and exploitation.  
+If no creds provided, adjelly tries unauthenticated SMB session.  
 
 ```
 Usage: adjelly smb [OPTIONS]
@@ -89,7 +89,7 @@ Options:
 ```
 
 ### LDAP
-Performs LDAP enumeration.\\
+Performs LDAP enumeration.  
 If no creds provided, adjelly tries unauthenticated LDAP bind.
 ```
 Usage: adjelly ldap [OPTIONS]
