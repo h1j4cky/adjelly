@@ -3,10 +3,6 @@ ADJelly is an Active Directory enumeration and exploitation tool.
 
 Choose module that suits you best.
 
-// here put chains with module names on it
-
-// in description of each module - try to explain WHAT EXACTLY IS GOING TO HAPPEN
-
 ## Installation
 Go to adjelly directory
 ```
@@ -198,4 +194,6 @@ Options:
   --help               Show this message and exit.                                                     
 ```
 
-
+### TODO
+// here put chains with module names on it - at the beginning  
+// in description of each module explain what exactly is going to happen  

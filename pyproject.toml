@@ -1,0 +1,27 @@
+[project]
+name = "adversary"
+version = "1.0.0"
+description = "adversary"
+requires-python = ">=3.8"
+dependencies = [
+    "click>=8.1",
+    "colorama",
+    "termcolor",
+    "rich",
+    "pysmb",
+    "temp",
+    "PyPDF2",
+    "python-docx",
+    "python-pptx",
+    "openpyxl"
+]
+
+[project.scripts]
+adversary = "src.modules.click_int:cli"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "src"
