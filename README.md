@@ -13,11 +13,10 @@ There is pyproject.toml file located in it. Install ADJELLY with _flit_ package 
 flit build
 flit install
 ```
-// byc moze totalnie nie trzeba build
-//If not done - add this directory to path to run it with name only
-//Successfully uninstalled adversary-1.0.0
-  WARNING: The script adversary is installed in '/home/hijacky/.local/bin' which is not on PATH.
-  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Alternative (and probably better option):
+```
+sudo pip install .
+```
 
 Run _install.sh_ script as root to install necessary tools (nmap, crackmapexec, etc.)
 ```
@@ -197,3 +196,8 @@ Options:
 ### TODO
 // here put chains with module names on it - at the beginning  
 // in description of each module explain what exactly is going to happen  
+//If not done - add this directory to path to run it with name only
+// add to install.sh - add adjelly to path? : 
+//Successfully uninstalled adversary-1.0.0
+  WARNING: The script adversary is installed in '/home/hijacky/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
