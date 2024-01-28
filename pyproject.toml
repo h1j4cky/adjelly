@@ -1,7 +1,7 @@
 [project]
-name = "adversary"
+name = "adjelly"
 version = "1.0.0"
-description = "adversary"
+description = "adjelly"
 requires-python = ">=3.8"
 dependencies = [
     "click>=8.1",
