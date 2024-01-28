@@ -4,10 +4,11 @@ ADJelly is an Active Directory enumeration and exploitation tool.
 Choose module that suits you best.
 
 ## Installation
-Go to _adjelly_ directory and install it with the following commands. ADJelly requires root privileges, hence pip is run as root.   
+Go to _adjelly_ directory and install it with the following commands. ADJelly requires root privileges, hence pip is run as root.  
+(An alternative could be creating a venv).
 ```
 cd adjelly
-sudo pip install . # as an alternative to sudo - create venv
+sudo pip install . 
 ```
 
 Run _install.sh_ script as root to install all necessary tools (nmap, crackmapexec, etc.)
