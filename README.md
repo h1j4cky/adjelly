@@ -13,6 +13,7 @@ sudo pip install .
 
 Run _install.sh_ script as root to install all necessary tools (nmap, crackmapexec, etc.)
 ```
+chmod +x install.sh
 sudo ./install.sh
 ```
 The script also creates directories with default enumeration lists and scripts located in /opt directory. 
