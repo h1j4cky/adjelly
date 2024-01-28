@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.scripts]
-adversary = "src.modules.click_int:cli"
+adjelly = "src.modules.click_int:cli"
 
 [build-system]
 requires = ["flit_core<4"]
