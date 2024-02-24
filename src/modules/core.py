@@ -94,7 +94,6 @@ def fullscan(dc_ip, username, password, domain, dcname, meta, spraypass, enumlis
     if "445" in open_ports:
         smb_main.smb_main(dc_ip, domain, username, password, meta)
     if "389" or "636" in open_ports:
-        print(password)
         ldap_main.ldap_main(dc_ip, domain, username, password)
     if "88" in open_ports:
         krb_init.krbinit_full(dc_ip, domain, spraypass, enumlist, cracklist, nocrack)
